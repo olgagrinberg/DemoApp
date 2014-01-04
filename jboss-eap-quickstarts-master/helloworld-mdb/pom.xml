@@ -55,8 +55,13 @@
         <!-- maven-compiler-plugin -->
         <maven.compiler.target>1.6</maven.compiler.target>
         <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.debug>true</maven.compiler.debug>
+        <maven.compiler.debuglevel>lines,vars,source</maven.compiler.debuglevel>
 
+        <!-- JBoss AS plugin -->
         <jboss-as.serverConfig>standalone-full.xml</jboss-as.serverConfig>
+        <jboss-as.jvmArgs>-Xms64m -Xmx512m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Dorg.jboss.resolver.warning=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n</jboss-as.jvmArgs>
+
     </properties>
 
     <dependencyManagement>
