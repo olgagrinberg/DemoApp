@@ -1,0 +1,1 @@
+This project reads messages from a RabbitMQ queue and writes into a MongoDb database.
