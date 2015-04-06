@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="31.036" errors="0" skipped="0" tests="2" name="com.mytestproject.client.GwtTestMyTestProject1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.72-b04"/>
+    <property name="user.country.format" value="CA"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="org.w3c.css.sac.parser" value="com.steadystate.css.parser.SACParserCSS3"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="surefire.reports" value="/Users/olgagrinberg/Documents/workspace/MyTestProject1/target/surefire-reports"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/olgagrinberg/Documents/workspace/MyTestProject1"/>
+    <property name="java.runtime.version" value="1.7.0_72-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bf/y6z68tf93p19jb1_w301b9xm0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="com.apple.eawt.CocoaComponent.CompatibilityMode" value="false"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/olgagrinberg/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="gwt.args" value="-war /Users/olgagrinberg/Documents/workspace/MyTestProject1/target/www-test -logLevel INFO -devMode -nocheckAssertions -XclusterFunctions -XcheckCasts -XclassMetadata -XcodeSplitting -nodraftCompile -XinlineLiteralParameters -XoptimizeDataflow -XordinalizeEnums -XremoveDuplicateFunctions -noshowUi -sourceLevel 1.7 -testBeginTimeout 1 -testMethodTimeout 5 -Xtries 1 -noincremental -precompile simple -runStyle HtmlUnit:FF17"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/olgagrinberg"/>
+    <property name="user.timezone" value="America/Montreal"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="olgagrinberg"/>
+    <property name="java.class.path" value="/Users/olgagrinberg/Documents/workspace/MyTestProject1/target/MyTestProject1-1.0-SNAPSHOT/WEB-INF/classes:/Users/olgagrinberg/Documents/workspace/MyTestProject1/src/main/java:/Users/olgagrinberg/Documents/workspace/MyTestProject1/target/generated-sources/gwt:/Users/olgagrinberg/Documents/workspace/MyTestProject1/src/test/java:/Users/olgagrinberg/Documents/workspace/MyTestProject1/src/test/resources:/Users/olgagrinberg/Documents/workspace/MyTestProject1/target/test-classes:/Users/olgagrinberg/.m2/repository/com/google/gwt/gwt-servlet/2.7.0/gwt-servlet-2.7.0.jar:/Users/olgagrinberg/.m2/repository/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar:/Users/olgagrinberg/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/olgagrinberg/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/Users/olgagrinberg/.m2/repository/com/google/gwt/gwt-dev/2.7.0/gwt-dev-2.7.0.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/Users/olgagrinberg/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/olgagrinberg/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-mvp-client/1.4/gwtp-mvp-client-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-clients-common/1.4/gwtp-clients-common-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-mvp-shared/1.4/gwtp-mvp-shared-1.4.jar:/Users/olgagrinberg/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/Users/olgagrinberg/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/olgagrinberg/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-client/1.4/gwtp-dispatch-rpc-client-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-dispatch-common-client/1.4/gwtp-dispatch-common-client-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-server-guice/1.4/gwtp-dispatch-rpc-server-guice-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-server/1.4/gwtp-dispatch-rpc-server-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-shared/1.4/gwtp-dispatch-rpc-shared-1.4.jar:/Users/olgagrinberg/.m2/repository/com/gwtplatform/gwtp-dispatch-common-shared/1.4/gwtp-dispatch-common-shared-1.4.jar:/Users/olgagrinberg/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/olgagrinberg/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/olgagrinberg/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/olgagrinberg/.m2/repository/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar:/Users/olgagrinberg/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar:/Users/olgagrinberg/.m2/repository/com/google/gwt/inject/gin/2.1.2/gin-2.1.2.jar:/Users/olgagrinberg/.m2/repository/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar:/Users/olgagrinberg/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/Users/olgagrinberg/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/Users/olgagrinberg/.m2/repository/com/google/gwt/gwt-dev/2.7.0/gwt-dev-2.7.0.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/Users/olgagrinberg/.m2/repository/org/codehaus/mojo/gwt-maven-plugin/2.7.0/gwt-maven-plugin-2.7.0.jar:/Users/olgagrinberg/.m2/repository/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.jar"/>
+    <property name="build.compiler" value="com.google.gwt.dev.shell.jetty.JettyLauncher$JDTCompiler16"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.mojo.gwt.test.MavenTestRunner com.mytestproject.client.GwtTestMyTestProject1"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="org.eclipse.jetty.xml.XmlParser.Validating" value="false"/>
+    <property name="java.version" value="1.7.0_72"/>
+    <property name="java.ext.dirs" value="/Users/olgagrinberg/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="30.905" classname="com.mytestproject.client.GwtTestMyTestProject1" name="testGreetingService"/>
+  <testcase time="0.078" classname="com.mytestproject.client.GwtTestMyTestProject1" name="testFieldVerifier"/>
+</testsuite>
