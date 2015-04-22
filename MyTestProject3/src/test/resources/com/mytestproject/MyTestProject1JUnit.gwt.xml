@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="MyTestProject3">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.mytestproject.MyTestProject3' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/MyTestProject3/greet" class="com.mytestproject.server.GreetingServiceImpl" />
+
+</module>
